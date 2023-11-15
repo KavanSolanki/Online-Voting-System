@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ubuntu:wght@400;500;700&display=swap");
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../img/online\ vote.jpg);
+    background-size: cover;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+.blink{
+    text-align: center;
+}
+span{
+    font-size: 18px;
+    color: LightSkyBlue;
+    animation: blink 3s linear infinite;
+}
+@keyframes blink{
+    0%{opacity: 0;}
+    50%{opacity: .5;}
+    100%{opacity: 1;}
+}
+.nav
+{
+    font-size: 16px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    border: 2px ridge;
+    padding: 8px;
+}
+a:hover{
+    color: black;
+    background-color: #fff;
+    border: none;
+}
+.footer
+{
+    color: LightSkyBlue;
+}
+input {
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    padding: 5px 9px;
+    font-size: 12px;
+  }
+  textarea {
+    outline: none;
+    resize: none;
+  }
+  .btn {
+    outline: none;
+    margin-top: 12px;
+    outline: none;
+    background: none;
+    padding: 7px 10px;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+  .btn:hover {
+    background: black;
+    border: 2px solid black;
+  }
+  #mainSection {
+    padding: 10px;
+}
+
+#profileSection {
+    width: 70%;
+    float: left;
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+}
+
+#groupSection {
+    width: 20%;
+    float: right;
+    color: black;
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+}
+table tr th{
+    color: black;
+    
+}
+.grp{
+    border: 2px double #0B78C8;
+    border-collapse: collapse;
+}
+.res{
+    border: 2px double #fff;
+    border-collapse: collapse;
+    color: #fff;
+}
+.vot {
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    padding: 1px 6px;
+}
+
+.vot:hover {
+    background-color: white;
+    color: black;
+}
+.imgborder{
+    border: 2px solid black;
+}
+.box
+{
+    background-color: #fff;
+    color: #000;
+    border: 2px solid white;
+}
